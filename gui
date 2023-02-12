@@ -23,8 +23,8 @@ MainSection:NewButton("LEO (QUEST2)", "TP LEO", function()
 game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-860.9605102539062, 151.03192138671875, 1142.4351806640625))
 end)
 
-MainSection:NewButton("Raquel (QUEST3)", "TP Lost Girl", function()
-game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-860.9605102539062, 151.03192138671875, 1142.4351806640625))
+MainSection:NewButton("Luana (QUEST3)", "TP Lost Girl", function()
+game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-413.0880126953125, 149.45716857910156, 958.1792602539062))
 end)
 
 MainSection:NewButton("Raquel (QUEST3)", "TP Raquel", function()
