@@ -35,6 +35,24 @@ MainSection:NewButton("Chin Village", "TP Undergroud Ek Village", function()
 game.Players.LocalPlayer.Character:MoveTo(Vector3.new(721.5800170898438, 262.8570861816406, -2182.634765625))
 end)
 
+-- Air Trainers
+local AirTab = Window:NewTab("AirTab")
+local AirSection = AirTab:NewSection("AirTab")
+
+
+AirSection:NewButton("Air Trainer 3", "3rd Air Trainer", function()
+    game.Players.LocalPlayer.Character:MoveTo(Vector3.new(454.0593566894531, 164.79307556152344, 1335.3309326171875))
+end)
+
+-- Weapons
+local WeaponTab = Window:NewTab("WeaponTab")
+local WeaponSection = WeaponTab:NewSection("WeaponTab")
+
+
+WeaponSection:NewButton("Fire Spear", "TP to fire spear", function()
+    game.Players.LocalPlayer.Character:MoveTo(Vector3.new(1409.282958984375, 160.86041259765625, 1023.2579345703125))
+end)
+
 -- Admin
 local AdminTab = Window:NewTab("Admin")
 local AdminSection = AdminTab:NewSection("Admin")
