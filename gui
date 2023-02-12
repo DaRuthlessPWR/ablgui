@@ -8,5 +8,9 @@ local MainSection = Main:NewSection("Tweens (Must Have Flight and No Clip On)")
 
 
 MainSection:NewButton("Gia", "TP Gia", function()
-game.Players.LocalPlayer.Character:MoveTo(Vector3.new(5625.734375, 52.183319091797, -17259.158203125))
+game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-1072, 230, 699))
+end)
+
+MainSection:NewButton("Sas", "TP Gia", function()
+game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-1072, 230, 699))
 end)
