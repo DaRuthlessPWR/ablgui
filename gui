@@ -44,14 +44,22 @@ LocationSection:NewButton("Air Village", "Air Village", function()
     game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-3547.17138671875, 350.0992431640625, 1607.6898193359375))
 end)
 
-LocationSection:NewButton("Air Village", "Air Village", function()
-    game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-3547.17138671875, 350.0992431640625, 1607.6898193359375))
+LocationSection:NewButton("Air Temple", "Air Temple", function()
+    game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-17920.349609375, 333.7537536621094, 3974.8955078125))
+end)
+
+LocationSection:NewButton("Air Temple", "Air Temple", function()
+    game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-17920.349609375, 333.7537536621094, 3974.8955078125))
 end)
 
 -- Air Trainers
 local AirTab = Window:NewTab("AirTab")
 local AirSection = AirTab:NewSection("AirTab")
 
+
+AirSection:NewButton("Air Trainer 1", "1st Air Trainer", function()
+    game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-18092.119140625, 338.86761474609375, 3915.760498046875))
+end)
 
 AirSection:NewButton("Air Trainer 3", "3rd Air Trainer", function()
     game.Players.LocalPlayer.Character:MoveTo(Vector3.new(454.0593566894531, 164.79307556152344, 1335.3309326171875))
