@@ -1,0 +1,12 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-library/main/source.lua"))()
+
+local Window = Library.CreateLib("{ABL} PWR HUB {LOTUS MEMBERS ONLY}", "GrapeTheme")
+
+-- Main
+local Main = Window:NewTab("Tweens")
+local MainSection = Main:NewSection("Tweens (Must Have Flight and No Clip On)")
+
+
+MainSection:NewButton("Gia", "TP Gia", function()
+game.Players.LocalPlayer.Character:MoveTo(Vector3.new(5625.734375, 52.183319091797, -17259.158203125))
+end)
