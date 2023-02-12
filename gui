@@ -20,7 +20,7 @@ game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-860.9605102539062, 151.03
 end)
 
 MainSection:NewButton("LEO (QUEST2)", "TP LEO", function()
-game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-860.9605102539062, 151.03192138671875, 1142.4351806640625))
+game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-2566.513671875, 283.2259521484375, -2781.8388671875))
 end)
 
 MainSection:NewButton("Luana (QUEST3)", "TP Lost Girl", function()
@@ -31,8 +31,21 @@ MainSection:NewButton("Raquel (QUEST3)", "TP Raquel", function()
 game.Players.LocalPlayer.Character:MoveTo(Vector3.new(1214.37451171875, 258.3157653808594, -1758.617919921875))
 end)
 
-MainSection:NewButton("Chin Village", "TP Undergroud Ek Village", function()
-game.Players.LocalPlayer.Character:MoveTo(Vector3.new(721.5800170898438, 262.8570861816406, -2182.634765625))
+-- Villages/Locals
+local LocationTab = Window:NewTab("LocationTab")
+local LocationSection = LocationTab:NewSection("LocationTab")
+
+
+LocationSection:NewButton("Chin Village", "UnderGround City", function()
+    game.Players.LocalPlayer.Character:MoveTo(Vector3.new(721.5800170898438, 262.8570861816406, -2182.634765625))
+end)
+
+LocationSection:NewButton("Air Village", "Air Village", function()
+    game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-3547.17138671875, 350.0992431640625, 1607.6898193359375))
+end)
+
+LocationSection:NewButton("Air Village", "Air Village", function()
+    game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-3547.17138671875, 350.0992431640625, 1607.6898193359375))
 end)
 
 -- Air Trainers
@@ -51,6 +64,15 @@ local WeaponSection = WeaponTab:NewSection("WeaponTab")
 
 WeaponSection:NewButton("Fire Spear", "TP to fire spear", function()
     game.Players.LocalPlayer.Character:MoveTo(Vector3.new(1409.282958984375, 160.86041259765625, 1023.2579345703125))
+end)
+
+-- Misc
+local MiscTab = Window:NewTab("MiscTab")
+local MiscSection = MiscTab:NewSection("MiscTab")
+
+
+MiscSection:NewButton("Full Bright/No Fog", "Bright", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/06iG6YkU", true))()
 end)
 
 -- Admin
