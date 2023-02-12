@@ -7,20 +7,32 @@ local Main = Window:NewTab("TP")
 local MainSection = Main:NewSection("Tweens (Must Use Sit from IY")
 
 
-MainSection:NewButton("Gia", "TP Gia", function()
+MainSection:NewButton("Gia(QUEST1)", "TP Gia", function()
 game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-1072, 230, 699))
 end)
 
-MainSection:NewButton("Roses", "TP Roses", function()
+MainSection:NewButton("Roses(QUEST1)", "TP Roses", function()
 game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-884, 173, -353))
 end)
 
-MainSection:NewButton("Fire", "TP Fire", function()
-game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-1771.13525390625, 22.59602165222168, -1902.305908203125))
+MainSection:NewButton("Luna (QUEST2)", "TP Luna", function()
+game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-860.9605102539062, 151.03192138671875, 1142.4351806640625))
 end)
 
-MainSection:NewButton("Earth", "TP EARTH", function()
-game.Players.LocalPlayer.Character:MoveTo(Vector3.new(138.38600158691406, 26.98014259338379, -930.4271240234375))
+MainSection:NewButton("LEO (QUEST2)", "TP LEO", function()
+game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-860.9605102539062, 151.03192138671875, 1142.4351806640625))
+end)
+
+MainSection:NewButton("Raquel (QUEST3)", "TP Lost Girl", function()
+game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-860.9605102539062, 151.03192138671875, 1142.4351806640625))
+end)
+
+MainSection:NewButton("Raquel (QUEST3)", "TP Raquel", function()
+game.Players.LocalPlayer.Character:MoveTo(Vector3.new(1214.37451171875, 258.3157653808594, -1758.617919921875))
+end)
+
+MainSection:NewButton("Chin Village", "TP Undergroud Ek Village", function()
+game.Players.LocalPlayer.Character:MoveTo(Vector3.new(721.5800170898438, 262.8570861816406, -2182.634765625))
 end)
 
 -- Admin
